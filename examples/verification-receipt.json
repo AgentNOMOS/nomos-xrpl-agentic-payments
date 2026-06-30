@@ -1,0 +1,21 @@
+{
+  "schema_version": "nomos.xrpl.verification_receipt.v1",
+  "receipt_id": "rcpt_demo_001",
+  "request_id": "req_demo_001",
+  "quote_id": "quote_demo_001",
+  "network": "xrpl-mainnet",
+  "asset": "XRP",
+  "expected_amount": "1.250000",
+  "verification": {
+    "request_binding": "matched",
+    "quote_binding": "matched",
+    "amount": "matched",
+    "destination_context": "matched",
+    "replay_status": "not_observed",
+    "settlement_status": "synthetic_not_submitted"
+  },
+  "decision_authority": "none",
+  "regulatory_verdict": "not_provided",
+  "synthetic": true,
+  "not_executed": true
+}
