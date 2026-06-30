@@ -1,0 +1,22 @@
+{
+  "schema_version": "nomos.xrpl.payment_intent.v1",
+  "request_id": "req_demo_001",
+  "actor": "invoice-agent",
+  "network": "xrpl-mainnet",
+  "asset": "XRP",
+  "amount": "1.250000",
+  "purpose": "synthetic supplier invoice demonstration",
+  "destination_ref": "destination_demo_001",
+  "expires_at": "2026-09-01T12:00:00Z",
+  "declared_authority": {
+    "type": "operator_grant",
+    "reference": "grant_demo_001"
+  },
+  "constraints": {
+    "max_amount": "2.000000",
+    "single_use": true,
+    "human_review_required": true
+  },
+  "synthetic": true,
+  "not_executed": true
+}
